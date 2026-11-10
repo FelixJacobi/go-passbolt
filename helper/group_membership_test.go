@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 const groupTestID = "11111111-1111-1111-1111-111111111111"
@@ -274,12 +274,13 @@ func TestUpdateGroupErrorsAtEachStage(t *testing.T) {
 			reads := 0
 			c := groupClient(t, func(w http.ResponseWriter, r *http.Request) {
 				fail := false
-				if r.Method == "GET" {
+				switch {
+				case r.Method == "GET":
 					reads++
 					fail = stage == "verification" && reads > 1
-				} else if strings.Contains(r.URL.Path, "dry-run") {
+				case strings.Contains(r.URL.Path, "dry-run"):
 					fail = stage == "dry-run"
-				} else {
+				default:
 					fail = stage == "write"
 				}
 				if fail {

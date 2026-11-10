@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // readGroupMemberships reads one group and normalizes the supported association

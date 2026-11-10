@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 func TestUpdateGroupReencryptsSharedSecretsAndVerifies(t *testing.T) {
