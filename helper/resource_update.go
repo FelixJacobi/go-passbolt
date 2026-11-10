@@ -7,7 +7,7 @@ import (
 	"maps"
 	"time"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // UpdateResource updates resource fields. Empty strings are not applied (partial update).

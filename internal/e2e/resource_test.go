@@ -6,7 +6,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/passbolt/go-passbolt/helper"
+	"github.com/pbolt-dev/go-pbolt/helper"
 )
 
 func TestResourceCreate(t *testing.T) {

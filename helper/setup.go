@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // ParseInviteURL parses a Passbolt Invite URL into a user id and token.

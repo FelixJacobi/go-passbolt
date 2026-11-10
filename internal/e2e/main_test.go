@@ -8,8 +8,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/passbolt/go-passbolt/api"
-	"github.com/passbolt/go-passbolt/internal/e2e/server"
+	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/pbolt-dev/go-pbolt/internal/e2e/server"
 )
 
 // Passwords equal emails.

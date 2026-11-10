@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // Tests for util.go list-search helpers. These functions are not

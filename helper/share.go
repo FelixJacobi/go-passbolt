@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // ShareOperation defines how Resources are to be Shared With Users/Groups

@@ -3,7 +3,7 @@ package helper
 import (
 	"testing"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // These benchmarks measure the cache-hit path, which is what a large `list` actually pays: one

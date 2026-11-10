@@ -1,4 +1,4 @@
-module github.com/passbolt/go-passbolt
+module github.com/pbolt-dev/go-pbolt
 
 go 1.26.10
 
