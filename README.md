@@ -1,10 +1,10 @@
-# go-passbolt
+# go-haspr
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/pbolt-dev/go-pbolt.svg)](https://pkg.go.dev/github.com/pbolt-dev/go-pbolt)
+[![Go Reference](https://pkg.go.dev/badge/github.com/haspr-dev/go-haspr.svg)](https://pkg.go.dev/github.com/haspr-dev/go-haspr)
 
 A Go module to interact with [Passbolt](https://www.passbolt.com/), an open-source password manager for teams
 
-There also is a CLI Tool to interact with Passbolt using this module [here](https://github.com/pbolt-dev/go-pbolt-cli).
+There also is a CLI Tool to interact with Passbolt using this module [here](https://github.com/haspr-dev/go-haspr-cli).
 
 Both Passbolt Community and PRO servers are supported.
 
@@ -16,7 +16,7 @@ The helper package has simplified functions that use the API package to perform 
 
 To use the API package, please read the [Passbolt API docs](https://help.passbolt.com/api). Sadly the docs aren't complete so many things here have been found by looking at the source of Passbolt or through trial and error. If you have a question just ask.
 
-PR's are welcome. But be gentle: if it's something bigger or fundamental: please [create an issue](https://github.com/pbolt-dev/go-pbolt/issues/new) and ask first.
+PR's are welcome. But be gentle: if it's something bigger or fundamental: please [create an issue](https://github.com/haspr-dev/go-haspr/issues/new) and ask first.
 
 # API Compatibility
 
@@ -31,7 +31,7 @@ In addition, users should also make sure they are running the latest version of 
 
 # Install
 
-`go get github.com/pbolt-dev/go-pbolt`
+`go get github.com/haspr-dev/go-haspr`
 
 # Examples
 
@@ -46,7 +46,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 const address = "https://passbolt.example.com"
@@ -80,7 +80,7 @@ You can do this using the `client.CheckSession()` function.
 
 ## Create a Resource
 
-Creating a resource using the helper package is simple. First, add `"github.com/pbolt-dev/go-pbolt/helper"` to your imports.
+Creating a resource using the helper package is simple. First, add `"github.com/haspr-dev/go-haspr/helper"` to your imports.
 
 Then you can simply:
 
@@ -343,7 +343,7 @@ go-passbolt now supports MFA! You can set it up using the Client's `MFACallback`
 
 ## Other
 
-These examples are just the main use cases of these Modules, many more API calls are supported. Look at the [reference](https://pkg.go.dev/github.com/pbolt-dev/go-pbolt) for more information.
+These examples are just the main use cases of these Modules, many more API calls are supported. Look at the [reference](https://pkg.go.dev/github.com/haspr-dev/go-haspr) for more information.
 
 ## Full Example
 
@@ -361,8 +361,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pbolt-dev/go-pbolt/api"
-	"github.com/pbolt-dev/go-pbolt/helper"
+	"github.com/haspr-dev/go-haspr/api"
+	"github.com/haspr-dev/go-haspr/helper"
 )
 
 const address = "https://passbolt.example.com"

@@ -1,4 +1,4 @@
-module github.com/pbolt-dev/go-pbolt
+module github.com/haspr-dev/go-haspr
 
 go 1.26.10
 

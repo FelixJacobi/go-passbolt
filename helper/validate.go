@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 	"github.com/santhosh-tekuri/jsonschema/v6"
 	"github.com/santhosh-tekuri/jsonschema/v6/kind"
 )

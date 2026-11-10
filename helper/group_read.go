@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // readGroupMemberships reads one group and normalizes the supported association

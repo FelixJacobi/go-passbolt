@@ -3,7 +3,7 @@ package helper
 import (
 	"fmt"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // findBy returns a pointer to the first element matching pred. If none match it

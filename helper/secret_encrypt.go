@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // encryptForArmoredKey parses an armored public key and encrypts plaintext for

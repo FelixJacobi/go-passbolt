@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // These tests exercise the strict-write / lenient-read validation against the embedded

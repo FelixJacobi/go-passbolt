@@ -6,7 +6,7 @@ import (
 	"github.com/google/uuid"
 	"strings"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // GroupMembershipOperation creates/modifies/deletes a group membership

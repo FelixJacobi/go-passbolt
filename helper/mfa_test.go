@@ -30,7 +30,7 @@ import (
 	"testing/synctest"
 	"time"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // The retry loop in AddMFACallbackTOTP sleeps between failed TOTP attempts, which

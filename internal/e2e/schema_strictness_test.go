@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pbolt-dev/go-pbolt/api"
-	"github.com/pbolt-dev/go-pbolt/helper"
+	"github.com/haspr-dev/go-haspr/api"
+	"github.com/haspr-dev/go-haspr/helper"
 )
 
 // A stored v5 resource carrying an undeclared metadata property reads fine, but update and share

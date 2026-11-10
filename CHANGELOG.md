@@ -6,6 +6,11 @@ Releases before 0.8.2 are documented in the [GitHub releases](https://github.com
 
 ## [Unreleased]
 
+## [0.10.0] - 2026-11-10
+### Changed
+- Renamed Go module to `github.com/haspr-dev/go-haspr`
+- Adopted `haspr` Go SDK branding and fork repository endpoints
+
 ## [0.9.0] - 2026-11-10
 ### Added
 - Plugin-specific organization settings APIs (`GetOrganizationSettings`, `SetOrganizationSettings`, `DeleteOrganizationSettings`)
@@ -19,7 +24,7 @@ Releases before 0.8.2 are documented in the [GitHub releases](https://github.com
 
 ## [0.8.5] - 2026-11-10
 ### Changed
-- Renamed Go module to `github.com/pbolt-dev/go-pbolt`
+- Renamed Go module to `github.com/haspr-dev/go-haspr`
 - Adopted `pbolt` Go SDK branding and fork repository endpoints
 
 ### Maintenance

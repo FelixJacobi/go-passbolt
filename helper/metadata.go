@@ -6,7 +6,7 @@ import (
 	"fmt"
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // GetResourceMetadata decrypts a v5 resource's metadata, validating leniently so undeclared

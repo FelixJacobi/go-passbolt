@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 const groupTestID = "11111111-1111-1111-1111-111111111111"

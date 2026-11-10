@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // CreateUser Creates a new User

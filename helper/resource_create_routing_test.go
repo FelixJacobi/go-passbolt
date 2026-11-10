@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // resourceType builds a type for a real bundled slug, since Schema resolves from the bundle only.

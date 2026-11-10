@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // CreateResource creates a resource using the server's preferred format (v4 or v5).

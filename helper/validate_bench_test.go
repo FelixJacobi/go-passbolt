@@ -3,7 +3,7 @@ package helper
 import (
 	"testing"
 
-	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/haspr-dev/go-haspr/api"
 )
 
 // These benchmarks measure the cache-hit path, which is what a large `list` actually pays: one
