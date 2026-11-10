@@ -6,6 +6,17 @@ Releases before 0.8.2 are documented in the [GitHub releases](https://github.com
 
 ## [Unreleased]
 
+## [0.9.0] - 2026-11-10
+### Added
+- Plugin-specific organization settings APIs (`GetOrganizationSettings`, `SetOrganizationSettings`, `DeleteOrganizationSettings`)
+- Account enable (`EnableUser`) and disable (`DisableUser`) methods
+- User recovery (`RecoverUser`) and invitation renewal (`ResendUserInvite`) requests
+- Complete group membership reads (`GetGroupWithOptions`, `helper.GetGroup`) and idempotent updates (`helper.UpdateGroup`)
+- Optional user MFA state (`IsMFAEnabled`, `FilterIsMFAEnabled`) and SCIM directory linkage (`ScimEntry`, `ContainSCIMEntry`)
+
+### Fixed
+- Explicit `is_admin: false` on group manager demotion to prevent silent demotion failure
+
 ## [0.8.5] - 2026-11-10
 ### Changed
 - Renamed Go module to `github.com/pbolt-dev/go-pbolt`
