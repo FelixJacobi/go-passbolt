@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/ProtonMail/gopenpgp/v3/crypto"
-	"github.com/passbolt/go-passbolt/api"
-	"github.com/passbolt/go-passbolt/helper"
+	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/pbolt-dev/go-pbolt/helper"
 )
 
 // TestSessionKeyCaching verifies session key cache behavior and performance

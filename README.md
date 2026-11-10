@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="https://pkg.go.dev/github.com/passbolt/go-passbolt"><img src="https://pkg.go.dev/badge/github.com/passbolt/go-passbolt.svg" alt="Go Reference" /></a>
+  <a href="https://pkg.go.dev/github.com/pbolt-dev/go-pbolt"><img src="https://pkg.go.dev/badge/github.com/pbolt-dev/go-pbolt.svg" alt="Go Reference" /></a>
   <a href="https://github.com/pbolt-dev/go-pbolt-cli"><img src="https://img.shields.io/badge/CLI-go--pbolt--cli-0bddec?style=flat-square&logo=go" alt="go-pbolt-cli" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-fdae15?style=flat-square" alt="License: MIT" /></a>
 </p>
@@ -40,7 +40,7 @@ The Go module is designed to work with current Passbolt API versions.
 ## 💻 Installation
 
 ```bash
-go get github.com/passbolt/go-passbolt
+go get github.com/pbolt-dev/go-pbolt
 ```
 
 ---
@@ -54,8 +54,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/passbolt/go-passbolt/api"
-	"github.com/passbolt/go-passbolt/helper"
+	"github.com/pbolt-dev/go-pbolt/api"
+	"github.com/pbolt-dev/go-pbolt/helper"
 )
 
 const (

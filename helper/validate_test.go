@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/passbolt/go-passbolt/api"
+	"github.com/pbolt-dev/go-pbolt/api"
 )
 
 // These tests exercise the strict-write / lenient-read validation against the embedded
