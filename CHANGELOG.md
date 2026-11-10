@@ -6,6 +6,17 @@ Releases before 0.8.2 are documented in the [GitHub releases](https://github.com
 
 ## [Unreleased]
 
+## [0.8.5] - 2026-11-10
+### Changed
+- Renamed Go module to `github.com/pbolt-dev/go-pbolt`
+- Adopted `pbolt` Go SDK branding and fork repository endpoints
+
+### Maintenance
+- ci: updated `golangci-lint` to `v2.15` in GitHub Actions for Go 1.27 compatibility
+- ci: enabled Dependabot for Go modules and GitHub Actions workflows
+- Enabled Dependabot security alerts and automated security fixes
+
+
 ## [0.8.4] - 2026-11-05
 ### Added
 - PB-54610: Validate Resource metadata and secrets against the JSON schemas bundled with the SDK instead of the server definition
